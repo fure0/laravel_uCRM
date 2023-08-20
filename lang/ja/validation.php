@@ -154,8 +154,11 @@ return [
     */
 
     'attributes' => [
-        'title' => '件名',
-        'content' => '本文'
+        'title' => '제목',
+        'content' => '본문',
+        'name' => '상품명',
+        'memo' => '메모',
+        'price' => '상품가격'
     ],
 
 ];
