@@ -156,9 +156,16 @@ return [
     'attributes' => [
         'title' => '제목',
         'content' => '본문',
-        'name' => '상품명',
+        'name' => '명',
         'memo' => '메모',
-        'price' => '상품가격'
+        'price' => '상품가격',
+        'kana' => '카나',
+        'tel' => '전화번호',
+        'email' => '이메일',
+        'postcode' => '우편번호',
+        'address' => '주소',
+        'birthday' => '생일',
+        'gender' => '성별'
     ],
 
 ];
