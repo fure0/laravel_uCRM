@@ -35,6 +35,9 @@ const showingNavigationDropdown = ref(false);
                                 <NavLink :href="route('purchases.create')" :active="route().current('purchases.create')">
                                     구입관리
                                 </NavLink>
+                                <NavLink :href="route('purchases.index')" :active="route().current('purchases.index')">
+                                    구매이력
+                                </NavLink>
                                 <NavLink :href="route('items.index')" :active="route().current('items.index')">
                                     상품관리
                                 </NavLink>
@@ -126,6 +129,9 @@ const showingNavigationDropdown = ref(false);
                         </ResponsiveNavLink>
                         <ResponsiveNavLink :href="route('purchases.create')" :active="route().current('purchases.create')">
                             구매관리
+                        </ResponsiveNavLink>
+                        <ResponsiveNavLink :href="route('purchases.index')" :active="route().current('purchases.index')">
+                            구매이력
                         </ResponsiveNavLink>
                         <ResponsiveNavLink :href="route('items.index')" :active="route().current('items.index')">
                             상품관리
