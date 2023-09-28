@@ -11,7 +11,7 @@ class AnalysisController extends Controller
 {
     public function index()
     {
-        $startDate = '2023-08-01';
+        $startDate = '2022-09-01';
         $endDate = '2023-08-31';
 
         // $period = Order::betweenDate($startDate, $endDate)
